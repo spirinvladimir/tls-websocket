@@ -1,0 +1,21 @@
+{
+  "name": "tls-websocket",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spirinvladimir/tls-websocket.git"
+  },
+  "description": "Use TLS server from browser via WebSockets",
+  "main": "index.js",
+  "bin": {
+    "tls-websocket": "./bin/cli.js"
+  },
+  "author": {
+    "name": "Vladimir Spirin",
+    "email": "spirin.vladimir@gmail.com"
+  },
+  "license": "UNLICENSED",
+  "dependencies": {
+    "websocket-stream": "3.1.0"
+  }
+}
